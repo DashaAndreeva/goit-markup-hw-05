@@ -529,6 +529,7 @@ header .logo-decoration {
 .footer-form {
   display: flex;
   align-items: center;
+  gap: 24px;
 }
 
 .subtitle-footer-form {
@@ -545,14 +546,14 @@ header .logo-decoration {
   height: 40px;
   border-radius: 4px;
   border: 1px solid #fff;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   background-color: transparent;
   color: #fff;
   font-size: 12px;
   font-weight: 400;
-  line-height: 2;
+  line-height: 1.5;
   letter-spacing: 0.04em;
-  margin-right: 24px;
+  /* margin-right: 24px; */
   padding-left: 16px;
   outline: transparent;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -563,6 +564,11 @@ header .logo-decoration {
 }
 
 .button-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  min-width: 165px;
   color: #fff;
   font-size: 16px;
   font-weight: 500;
@@ -579,12 +585,6 @@ header .logo-decoration {
 .button-form:hover,
 .button-form:focus {
   background-color: #404bbf;
-}
-
-.button-items {
-  display: flex;
-  align-items: center;
-  gap: 16px;
 }
 
 .icon-btn-form {
