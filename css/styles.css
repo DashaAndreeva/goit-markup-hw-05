@@ -759,7 +759,7 @@ header .logo-decoration {
 }
 
 .check-text {
-  display: inline-flex;
+  /* display: inline-flex; */
   color: #8e8f99;
   font-size: 12px;
   font-weight: 400;
